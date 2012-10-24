@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>What's for Lunch?</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A quick app for quickly deciding where to have lunch." />
+		<meta name="author" content="Dipendra Bagchee" />
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/bootstrap-responsive.css" rel="stylesheet" />
+		<link href="css/lunch.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>What's for Lunch?</h1>
+			<div class="row-fluid">
+				<div class="span12">
+					<form class="">
+						<button id="whats-for-lunch" class="btn btn-primary btn-large">What's for Lunch?</button>
+						<button id="see-all" class="btn btn-large">See All</button>
+						<label class="checkbox">
+							<input id="vegetarian" type="checkbox" checked="checked"> Vegetarian?
+						</label>
+						<label class="select">Cost
+							<select id="cost">
+								<option value="low">Low $5-$10</option>
+								<option value="medium">Medium $10-$15</option>
+								<option value="high">High $15 and up</option>
+							</select>
+						</label>
+					</form>
+				</div>
+			</div>
+			<div id="lunch-list"></div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/lunch.js"></script>
+	</body>
+</html>
