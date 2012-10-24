@@ -23,6 +23,10 @@ var lunch = {
 			{	"name": "Malone's",
 				"vegetarian" : "yes",
 				"cost" : "high"
+			},
+			{	"name": "Bruno's BBQ",
+				"vegetarian" : "yes",
+				"cost" : "medium"
 			}
 	],
 	
